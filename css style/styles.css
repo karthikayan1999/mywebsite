@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+.top{
+  background-color: #e8ffff;
+  padding: 100px;
+
+
+}
+p{
+  color:#40514E;
+  margin: 30px auto;
+}
+.profile{
+  width:150px;
+}
+.intro{
+  width:40%;
+}
+h1{
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Oswald', sans-serif;
+  color:#66BFBF;
+  font-size: 30px;
+}
+hr{
+  border-style: dotted none none  ;
+  width:50px;
+  border-width: 6px;
+  border-color: lightgrey;
+  margin:50px auto ;
+}
+
+h3{
+  font-family: 'Oswald', sans-serif;
+  color:#11999E;
+  font-weight: normal;
+}
+
+a{
+  color:#11999E;
+  margin: auto 20px ;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  }
+a:hover{
+  color:white;
+}
+.subtitle{
+  text-align: center;
+  padding: 10px;
+  font-weight: normal;
+}
+.skill-row{
+  width:50%;
+  margin : 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.html{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.css{
+  width: 20%;
+  margin-left: 30px;
+  float: right;
+}
+
+.middle-container{
+  margin:50px auto;
+}
+.cloud1{
+  position: absolute;
+  right:300px;
+  top:30px;
+}
+.cloud2{
+  position: absolute;
+  top:270px;
+  left:300px
+}
+.des1{
+  clear:left;
+  padding: 10px
+}
+.des2{
+  clear:right;
+  padding: 10px;
+}
+.contact-me{
+  margin: 40px auto 60px;
+}
+.button {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.footer{
+  background-color: #66bfbf;
+  padding: 40px 0 40px 0;
+}
+.thank{
+  color:#eaf6f6;
+  font-size: small;
+  margin: 40px auto auto;
+}
